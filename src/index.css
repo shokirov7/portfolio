@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+}
+@font-face {
+  font-family: pop-reg;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: pop-med;
+  src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: pop-semi;
+  src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: pop-bold;
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: mulish-med;
+  src: url(./assets/fonts/Mulish-Medium.ttf);
+}
+@font-face {
+  font-family: mulish-semi;
+  src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: inter-reg;
+  src: url(./assets/fonts/Inter-Regular.ttf);
+}
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* variables */
+  --title-color: #2d2e32;
+  --hover-color: #ec203b;
+  --transition: all 0.3s;
+  --pt: 4rem;
+  --p: 6rem;
+}
